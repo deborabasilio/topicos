@@ -18,10 +18,10 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: Text("Meu aplicativo")),
         body: Center(
           child: TextButton(
-            child: Text("Clicar aqui"),
-            onPressed: (){
-              print("clicou");
-            }
+              child: Text("Clicar aqui"),
+              onPressed: () {
+                print("clicou");
+              }),
         ),
       ),
     );
